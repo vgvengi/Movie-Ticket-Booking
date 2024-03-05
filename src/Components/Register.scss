@@ -1,0 +1,84 @@
+.homepage{
+    //  overflow-y: hidden;
+    overflow-x:hidden;
+}
+.signinmaindiv{
+    display: flex;
+    // overflow-y: hidden;
+}
+.maindivone{
+    width: 720px;
+    height: 1024px;
+    background-color: black;
+}
+.frstcircle{
+    height: 458px;
+    width: 448px;
+    border-radius: 50%;
+    margin-left: 540px;
+    background-color: #0B542C;
+    box-shadow : 0 0 10px 100px #0B542C;
+    filter: blur(200px);
+}
+.secondcircle{
+    height: 458px;
+    width: 448px;
+    border-radius: 50%;
+    background-color: #0B542C;
+    box-shadow : 0 0 10px 100px #0B542C;
+    filter: blur(200px);
+    margin-right: 100%;
+    position:absolute;
+}
+.maindivtwo{
+    // position:fixed;
+    font-family: "Poppins",sans-serif;
+    margin-left: 135px;
+    width: fit-content;
+    height: fit-content;
+}
+.mail{
+    display: grid;
+}
+.form{
+    display: grid;
+    gap: 20px;
+    
+}
+.h4 h4{
+    font-weight: bold;
+    margin-top: 300px;
+}
+
+.form2{
+    display: grid;
+    gap: 10px;
+    font-size: 16px;
+    border-radius:5px;
+}
+.form3{
+    display: grid;
+    gap: 10px;
+    border-radius:5px;
+
+}
+.mail input{
+    height: 30px;
+    width: 400px;
+}
+#createaccount{
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 400px;
+    border: #1DE782;
+    background-color: #1DE782;
+}
+.maindivtwo h5{
+    color: #BEBEBF;
+    font-weight:light;
+}
+.maindivtwo .login2 {
+    text-decoration: none;
+    color: #1DE782;
+}

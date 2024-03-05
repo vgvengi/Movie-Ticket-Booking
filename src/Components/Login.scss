@@ -1,0 +1,53 @@
+ #html1{
+     height: 100vh;
+     background-color:black;
+     overflow-x: hidden;
+     overflow-y: hidden;
+ }
+ .loginmaindiv{
+    display: grid;
+    border-radius:5px ;
+    width: 635px;
+    height: 524px;
+    background-color: white;
+    margin-top: 210px;
+    margin-left: 550px;
+ }
+ .loginmaindiv h3{
+    font-family: "Poppins",sans-serif;
+    margin-left: 44px;
+    margin-top: 83px;
+    width: fit-content;
+    height: fit-content;
+ }
+ .email {
+    display: flex;
+    margin-bottom: 256px;
+    margin-left: 44px;
+    font-family: "Poppins",sans-serif;
+ }
+ .email form{
+    display: grid;
+    gap: 12px;
+ }
+ .email input{
+    height: 25px;
+    width: 447px;
+ }
+ .Loginbutton{
+     border-color: #1DE782;
+     background-color:#1DE782;
+     height: 25px;
+     width: 447px;
+         margin-bottom: 20px;
+         text-align: center;
+     &:active{
+        outline: none;
+    }
+ }
+ .email span{
+    color: #1DE782;
+ }
+ .re{
+    text-decoration: none;
+ }

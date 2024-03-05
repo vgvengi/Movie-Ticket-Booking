@@ -1,0 +1,154 @@
+.homepage{
+    background-color:black;
+ }
+ body{
+    overflow-x: hidden;
+    // overflow-y: hidden;
+ }
+.firstdiv{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.firstdiv img{
+    height:85px;
+}
+.blur{
+    height: 458px;
+    width: 448px;
+    border-radius: 150px 150px 0 0;
+    margin-left: 1400px;
+    background-color: #0B542C;
+    box-shadow : 0 0 10px 100px #0B542C;
+    filter: blur(120px);
+    position: absolute;
+    z-index:1;
+}
+
+.movies2 .blur2{
+    height: 458px;
+    width: 448px;
+    z-index: 1;
+    background-color: #0B542C;
+    border-radius: 100%;
+    filter: blur(120px);
+    box-shadow : 0 0 10px 100px #0B542C;
+    position:absolute;
+}
+.Login{
+    display: flex;
+    position: absolute;
+    margin-left: 1370px;
+    background-color:#1DE782;
+    width: 100px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 8px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-top: 4px;
+    text-align: center;
+    margin-left: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.link2{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    text-align: center;
+    text-decoration:none;
+    margin-top: 4px;
+    margin-left: 20px;
+    color: white;
+    font-weight:lighter;
+}
+.register{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 100px;
+    font-family: "Poppins", sans-serif;
+     background-color:#094A26;  
+     text-align: center;
+      padding-top: 5px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-left: 1500px;
+}
+.seconddiv h4{
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.movies{
+    gap:50px;
+    display: flex;
+    margin-left: 265px;
+}
+.images1{
+    width: 250px;
+    height: 408px;
+ }
+.images1 h3{
+    color: white;
+    text-align: center;
+}
+.images2{
+    width: 250px;
+    height: 508px;
+}
+.images2 h3{
+    color: white;
+    text-align: center;
+    width: fit-content;
+}
+.images3{
+    width: 250px;
+    height: 408px;
+}
+.images3 h3{
+    color: white;
+    text-align: center;
+}
+.images4{
+    width: 250px;
+    height: 408px;   
+}
+.images4 h3{
+    color: white;
+     text-align: center;
+     width: fit-content;
+     height: fit-content;
+}
+.movies2{
+    display: flex;
+     align-items: center;
+     gap: 50px;
+}
+.images5{
+    width: 250px;
+    height: 408px;
+    margin-left: 570px;
+    margin-bottom: 30px;
+
+}
+.images5 h3{
+    color: white;
+    text-align: center;
+}
+.images6{
+    width: 250px;
+    height: 408px;
+     margin-bottom: 30px;
+}
+.images6 h3{
+    color: white;
+    text-align: center;
+} 

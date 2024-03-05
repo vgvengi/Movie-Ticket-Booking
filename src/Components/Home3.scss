@@ -1,0 +1,98 @@
+.maindiv_1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: grid;
+}
+.headerdiv{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.headerdiv .Link{
+    width: 100px;
+    height: 48px;
+    background-color: red;
+    margin-left: 1300px;
+}
+.Link .link_logout{
+    font-family: "Poppins",sans-serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.time_Booking{
+    display: grid;
+    margin-top: 120px;
+    margin-left: 110px;
+    gap: 20px;
+    position: absolute;
+}
+.time_Booking h3{
+    color: white;
+    // margin-top: 10px;
+    // gap: 10px;
+}
+.theater_name{
+    display: flex;
+    color: white;
+    font-family: "Poppins",sans-serif;
+    gap: 20px;
+    // text-align: center;
+    // align-items: center;
+}
+.theater_name div{
+    // display: flex;
+    height: 40px;
+    width: 135px;
+    border:2px solid white;
+    border-radius: 50px;
+ margin-top: 10px;
+}
+.theater_name div h5{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+.dates{
+    display: flex;
+    width: 610px;
+    height: 85px;
+    gap: 20px;
+    // padding: 5px;
+}
+.date{
+    padding: 12px;
+    font-family: "Poppins",sans-serif;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+}
+.times{
+    display: flex;
+    width: 368px;
+    height: 113px;
+    gap: 20px;
+}
+.time{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid white;
+    color: white;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 14px;   
+}
+.movieDetails{
+    height: 448px;
+    width: 250px;
+    border: 1px solid white;
+    margin-left: 1295px;
+    margin-top: 110px;
+    // margin-left: 155px;
+}

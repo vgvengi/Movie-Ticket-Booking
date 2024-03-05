@@ -1,0 +1,92 @@
+.seat{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.seat h2{
+    color: white;
+    font-family: "Poppins",sans-serif;
+    margin-top: 50px;
+    margin-left: 70px;
+    width: fit-content;
+    height: fit-content;
+    position:fixed;
+}
+.seater{
+    height: 400px;
+    width: 558px;
+    margin-left: 550px;
+    display: grid;
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+.A1{
+    height: 36px;
+    width: 558px;
+    color: black;
+    display: flex;
+    gap: 15px;
+}
+.A1 h5{
+    display: flex;
+    width: 45px;
+    height: 36px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+}
+.A2{
+    width: 558px;
+    height: 42px;
+    border:1px solid white;
+    margin-bottom: 190px;
+    // margin-left: 545px;
+    cursor: pointer;
+}
+.A2 h5{
+    position: fixed;
+    width: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+.proceed{
+    display: flex;
+}
+.hr{
+    width: 100%;
+    // margin-bottom: 23px;
+}
+.payment{
+    color: white;
+}
+.seatcounts{
+    color: white;
+    width: fit-content;
+    margin-left: 540px;
+    margin-bottom: 100px;
+}
+.finalproced{
+    width: 528px;
+    height: 60px;
+    margin-left: 73px;
+}
+
+.back{
+    height: 60px;
+    width: 219px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    border-radius: 4px;
+    border: 2px solid white;
+    margin-top: 15px;
+    margin-left: 250px;
+}
